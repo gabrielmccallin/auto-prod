@@ -1,0 +1,10 @@
+{
+    "name": "auto-prod",
+    "version": "1.0.0",
+    "description": "🚀",
+    "scripts": {
+        "build": "npm run copy:header:css && npm run lint && npm run test:build && npm run build:sg && rollup -c && npm run add-version"
+    },
+    "author": "Gabriel McCallin",
+    "license": "MIT"
+}

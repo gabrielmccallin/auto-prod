@@ -1,0 +1,9 @@
+# tools
+.vscode/
+
+# build
+.rpt2_cache/
+node_modules/
+
+# logs
+npm-debug.log
